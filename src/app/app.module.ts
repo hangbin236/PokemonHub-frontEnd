@@ -6,15 +6,19 @@ import { AppComponent } from './app.component';
 import { StorefrontComponent } from './storefront/storefront.component';
 import { HeaderComponent } from './header/header.component';
 
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
 @NgModule({
   declarations: [
     AppComponent,
     StorefrontComponent,
-    HeaderComponent
+    HeaderComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
